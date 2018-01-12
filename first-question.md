@@ -21,10 +21,17 @@ Files are named according to well positions, need to be named after samples they
 cd /xchip/clf/seq_data/process_for_fc
 ```
 
-Edit and run these two files:
+Edit and run this file:
 
 ```
 prepare_data_for_fc_export.py
+```
+
+### 3. Upload to Firecloud \(Google Bucket\)
+
+Edit and run this file:
+
+```
 upload_bams_to_fc.py
 ```
 
