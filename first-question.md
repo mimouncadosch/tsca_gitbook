@@ -35,5 +35,13 @@ Edit and run this file:
 upload_bams_to_fc.py
 ```
 
+## Uploading the metadata
+
+### 1. Upload batch metadata to Firecloud
+
+
+
+
+
 
 
