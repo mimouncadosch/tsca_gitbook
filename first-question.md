@@ -47,11 +47,11 @@ First, in folder `/xchip/clf/seq_data/process_for_fc/metadata_exports/remote_fil
 
 Where `TSCAXX` is the last batch run
 
-In the file:
+Second, In the file:
 
 ```
 /xchip/clf/seq_data/process_for_fc/metadata_exports/firecloud_sugar.py
 ```
 
-Run function \`upload\_data\_new\_batch\(\)
+Run function `upload_data_new_batch(...)`  and ` update_cohorts(...)` 
 
