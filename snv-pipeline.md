@@ -42,6 +42,14 @@ Create PoN for SNVs for MuTect2
 
 ---
 
+#### 2. SNV\_PostProcessing\_Normals
+
+* _Entity_: sample\_set
+* _Status_: **works**
+* _Call on_: **normal samples set**
+
+---
+
 #### 2. SNV\_MutationCalling\_Tumors
 
 Dependencies:
@@ -49,7 +57,7 @@ Dependencies:
 * **CreatePoN\_SNV\_Mutect1**
 * **CreatePoN\_SNV\_Mutect2**
 
-* _Entity: _pair
+* Entity: pair
 * _Status_: **works**
 * _Call on_: **tumor pairs** in new batch
 
@@ -59,13 +67,14 @@ Dependencies:
 
 Dependencies:
 
-* **SNV\_MutationCalling\_Tumors** 
+* **SNV\_MutationCalling\_Tumors**
 
-* _Entity: _pair
+* \_Entity: \_pair
+
 * _Status_: **works**
 * _Call on_: **tumor pairs** in new batch
-* 
 
+---
 
-
+4. Aggregate 
 
