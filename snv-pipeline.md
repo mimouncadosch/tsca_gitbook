@@ -60,6 +60,7 @@ Dependencies:
 * Entity: pair
 
 * _Status_: **works**
+
 * _Call on_: **tumor pairs** in new batch
 
 ---
@@ -70,7 +71,7 @@ Dependencies:
 
 * **SNV\_MutationCalling\_Tumors**
 
-* \_Entity: \_pair
+* Entity: pair
 
 * _Status_: **works**
 
@@ -80,7 +81,9 @@ Dependencies:
 
 #### 4. SNV\_PostProcessing
 
+Dependencies:
 
-
+* SNV\_FilterGermlineEvents\_TumorSample
+* 
 
 
