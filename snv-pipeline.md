@@ -20,7 +20,7 @@ Create PoN for SNVs for MuTect1
 
 * _Entity_: sample\_set
 * _Status_: **works**
-* _Call on_: Cum\_PoN\_XX\_all where XX is the latest batch number
+* _Call on_: **Cum\_PoN\_XX\_all** where XX is the latest batch number
 
 ---
 
@@ -30,11 +30,15 @@ Create PoN for SNVs for MuTect2
 
 * _Entity_: sample\_set
 * _Status_: **works**
-* _Call on_: Cum\_PoN\_XX\_all where XX is the latest batch number
+* _Call on_: **Cum\_PoN\_XX\_all** where XX is the latest batch number
 
 ---
 
-#### 1. SNV\_FilterGermlineEvents\_NormalSample 
+#### 1. SNV\_FilterGermlineEvents\_NormalSample
+
+* _Entity_: sample
+* _Status_: **works**
+* _Call on_: **normal samples** in new batch
 
 ---
 
@@ -45,11 +49,15 @@ Dependencies:
 * **CreatePoN\_SNV\_Mutect1**
 * **CreatePoN\_SNV\_Mutect2**
 
+* _Entity_: pair
+* _Status_: **works**
+* _Call on_: **tumor pairs** in new batch
+
 ---
 
 #### 3. SNV\_FilterGermlineEvents\_TumorSample
 
-Dependencies: 
+Dependencies:
 
 * **SNV\_MutationCalling\_Tumors** 
 
