@@ -49,7 +49,7 @@ Dependencies:
 * **CreatePoN\_SNV\_Mutect1**
 * **CreatePoN\_SNV\_Mutect2**
 
-* _Entity_: pair
+* _Entity: _pair
 * _Status_: **works**
 * _Call on_: **tumor pairs** in new batch
 
@@ -60,6 +60,12 @@ Dependencies:
 Dependencies:
 
 * **SNV\_MutationCalling\_Tumors** 
+
+* _Entity: _pair
+* _Status_: **works**
+* _Call on_: **tumor pairs** in new batch
+* 
+
 
 
 
