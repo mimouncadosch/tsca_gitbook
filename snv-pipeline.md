@@ -74,6 +74,7 @@ Dependencies:
 * Entity: pair
 
 * _Status_: **works**
+
 * _Call on_: **tumor pairs** in new batch
 
 ---
@@ -84,9 +85,12 @@ Dependencies:
 
 * **SNV\_FilterGermlineEvents\_TumorSample**
 
+Run on:
+
 * Entity: pair\_set
 
 * _Status_: **works**
+
 * _Call on_: **tumor pair\_set**
 
 
