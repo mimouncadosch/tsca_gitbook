@@ -24,7 +24,7 @@ Create PoN for SNVs for MuTect1
 
 ---
 
-#### 2. CreatePoN\_SNV\_Mutect2 {#2-createponsnvmutect2}
+#### 1. CreatePoN\_SNV\_Mutect2 {#2-createponsnvmutect2}
 
 Create PoN for SNVs for MuTect2
 
@@ -33,6 +33,25 @@ Create PoN for SNVs for MuTect2
 * _Call on_: Cum\_PoN\_XX\_all where XX is the latest batch number
 
 ---
+
+#### 1. SNV\_FilterGermlineEvents\_NormalSample 
+
+---
+
+#### 2. SNV\_MutationCalling\_Tumors
+
+Dependencies:
+
+* **CreatePoN\_SNV\_Mutect1**
+* **CreatePoN\_SNV\_Mutect2**
+
+---
+
+#### 3. SNV\_FilterGermlineEvents\_TumorSample
+
+Dependencies: 
+
+* **SNV\_MutationCalling\_Tumors** 
 
 
 
