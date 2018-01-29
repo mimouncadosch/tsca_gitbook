@@ -24,6 +24,7 @@ cd /xchip/clf/seq_data/process_for_fc
 Edit and run this file:
 
 ```
+source venv/bin/activate
 prepare_data_for_fc_export.py
 ```
 
@@ -53,5 +54,5 @@ Second, In the file:
 /xchip/clf/seq_data/process_for_fc/metadata_exports/firecloud_sugar.py
 ```
 
-Run function `upload_data_new_batch(...)`  and ` update_cohorts(...)` 
+Run function `upload_data_new_batch(...)`  and `update_cohorts(...)`
 
