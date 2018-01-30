@@ -1,6 +1,8 @@
 # External Sheet Guidelines
 
-* External Sample ID should be unique
+General comments:
+
+* **External Sample ID** should be unique
 
 Control sample:
 
