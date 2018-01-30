@@ -3,6 +3,7 @@
 General comments:
 
 * **External Sample ID** should be unique
+* No comments on the spreadsheet other than the rows with sample data
 
 Control sample:
 
@@ -12,5 +13,6 @@ Control sample:
 
 * External Sample ID should be **"CCLF\_TSCA\_25\_Ctrl"**
 
+* 
 
 
