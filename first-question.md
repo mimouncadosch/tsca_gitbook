@@ -40,9 +40,7 @@ upload_bams_to_fc.py
 
 ### 1. Upload batch metadata to Firecloud
 
-
-
-##### A. 
+##### A.
 
 First, in folder `/xchip/clf/seq_data/process_for_fc/metadata_exports/remote_files`  make sure to add the following files:
 
@@ -54,11 +52,13 @@ Where `TSCAXX` is the last batch run.
 
 **Note:** Download these files from Firecloud, by going to your **workspace &gt; Data, **and selecting** pairsets, samples, sample\_sets, **respectively.
 
-##### B. 
+##### B.
 
 Second, in the file `/xchip/clf/seq_data/process_for_fc/metadata_exports/paths_to_batches_info.xlsx`make sure to add the path to the `import_samples.txt` file for the batch being run.
 
 The file will be in `/xchip/clf/seqdata/process_for_fc/tscaXX_date_SNID/`
+
+##### C. 
 
 Third, In the file:
 
