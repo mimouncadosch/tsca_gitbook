@@ -40,17 +40,27 @@ upload_bams_to_fc.py
 
 ### 1. Upload batch metadata to Firecloud
 
-First, in folder `/xchip/clf/seq_data/process_for_fc/metadata_exports/remote_files`  make sure to add the files:
+
+
+##### A. 
+
+First, in folder `/xchip/clf/seq_data/process_for_fc/metadata_exports/remote_files`  make sure to add the following files:
 
 * pair\_set\_membership\_TSCAXX.tsv
 * remote\_samples\_TSCAXX.txt
 * sample\_set\_membership\_TSCAXX.tsv
 
-Where `TSCAXX` is the last batch run. 
+Where `TSCAXX` is the last batch run.
 
-! Download these files from Firecloud, by going to your **workspace &gt; Data &gt; pairsets, samples, sample\_sets**.
+**Note:** Download these files from Firecloud, by going to your **workspace &gt; Data, **and selecting** pairsets, samples, sample\_sets, **respectively.
 
-Second, In the file:
+##### B. 
+
+Second, in the file `/xchip/clf/seq_data/process_for_fc/metadata_exports/paths_to_batches_info.xlsx`make sure to add the path to the `import_samples.txt` file for the batch being run.
+
+The file will be in `/xchip/clf/seqdata/process_for_fc/tscaXX_date_SNID/`
+
+Third, In the file:
 
 ```
 /xchip/clf/seq_data/process_for_fc/metadata_exports/firecloud_sugar.py
