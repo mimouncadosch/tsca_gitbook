@@ -5,4 +5,5 @@
 * [CNV Pipeline](cnv-pipeline.md)
 * [SNV Pipeline](snv-pipeline.md)
 * [How can I do X?](second-question.md)
+* [External Sheet Guidelines](external-sheet-guidelines.md)
 
