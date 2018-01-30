@@ -46,7 +46,9 @@ First, in folder `/xchip/clf/seq_data/process_for_fc/metadata_exports/remote_fil
 * remote\_samples\_TSCAXX.txt
 * sample\_set\_membership\_TSCAXX.tsv
 
-Where `TSCAXX` is the last batch run
+Where `TSCAXX` is the last batch run. 
+
+! Download these files from Firecloud, by going to your **workspace &gt; Data &gt; pairsets, samples, sample\_sets**.
 
 Second, In the file:
 
