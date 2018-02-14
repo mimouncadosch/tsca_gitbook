@@ -50,7 +50,7 @@ First, in folder `/xchip/clf/seq_data/process_for_fc/metadata_exports/remote_fil
 
 Where `TSCAXX` is the last batch run.
 
-**Note:** Download these files from Firecloud, by going to your **workspace &gt; Data, **and selecting** pairsets, samples, sample\_sets, **respectively.
+**Note:** Download these files from Firecloud, by going to your **workspace &gt; Data, **and selecting** **from **pairsets, samples, sample\_sets, **respectively.
 
 ##### B.
 
@@ -58,7 +58,7 @@ Second, in the file `/xchip/clf/seq_data/process_for_fc/metadata_exports/paths_t
 
 The file will be in `/xchip/clf/seqdata/process_for_fc/tscaXX_date_SNID/`
 
-##### C. 
+##### C.
 
 Third, In the file:
 
