@@ -26,5 +26,9 @@ Compile Fingerprinting database
 
 Query fingerprinting matches
 
+* **Entity: **sample\_set
+* **Status: \*\*works\*\***
+* **Call on: **sample set with samples in new batch 
+
 
 
