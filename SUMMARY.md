@@ -7,4 +7,5 @@
 * [How can I do X?](second-question.md)
 * [External Sheet Guidelines](external-sheet-guidelines.md)
 * [Versioning](versioning.md)
+* [Fingerprinting QC](fingerprinting-qc.md)
 
