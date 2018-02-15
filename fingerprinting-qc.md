@@ -16,13 +16,9 @@ Compile Pileup Count
 
 Compile Fingerprinting database
 
-\* \_Entity\_: sample\_set
-
-\* \_Status\_: \*\*works\*\*
-
-\* \_Call on\_: sample set with all cumulative samples \(e.g. Cum\_21\_all\)
-
-
+* **Entity:** sample\_set
+* **Status: \*\*works\*\***
+* **Call on:** sample set with all cumulative samples \(e.g. Cum\_21\_all\)
 
 FINISH THIS
 
