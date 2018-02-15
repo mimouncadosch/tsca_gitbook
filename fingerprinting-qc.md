@@ -20,5 +20,11 @@ Compile Fingerprinting database
 * **Status: \*\*works\*\***
 * **Call on:** sample set with all cumulative samples \(e.g. Cum\_21\_all\)
 
-FINISH THIS
+---
+
+### 2. FNG\_Query\_db
+
+Query fingerprinting matches
+
+
 
