@@ -21,11 +21,11 @@ Files are named according to well positions, need to be named after samples they
 cd /xchip/clf/seq_data/process_for_fc
 ```
 
-Prepare UGER
+**TODO:**Prepare UGER
 
 \`\`\`USE UGER
 
-https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun\_grid\_engine\_for\_beginners/how\_to\_submit\_a\_job\_using\_qsub.md
+[https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun\_grid\_engine\_for\_beginners/how\_to\_submit\_a\_job\_using\_qsub.md](https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun_grid_engine_for_beginners/how_to_submit_a_job_using_qsub.md)
 
 \`\`\`
 
@@ -75,4 +75,13 @@ Third, In the file:
 ```
 
 Run function `upload_data_new_batch(...)`  and `update_cohorts(...)`
+
+**D.**
+
+For debugging, make sure that:
+
+* The Control sample has a sample ID \(not a null ID\)
+* That there aren't any new cohorts not included in the dictionary `cohort_names_dictionary.txt` 
+
+
 
