@@ -21,6 +21,14 @@ Files are named according to well positions, need to be named after samples they
 cd /xchip/clf/seq_data/process_for_fc
 ```
 
+Prepare UGER
+
+\`\`\`USE UGER
+
+https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun\_grid\_engine\_for\_beginners/how\_to\_submit\_a\_job\_using\_qsub.md
+
+\`\`\`
+
 **Edit** and run this file:
 
 ```
