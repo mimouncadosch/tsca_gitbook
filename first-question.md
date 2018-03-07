@@ -30,10 +30,10 @@ python prepare_data_for_fc_export.py
 
 ### 3. Upload to Firecloud \(Google Bucket\)
 
-Edit and run this file:
+**Edit** and run this file:
 
 ```
-upload_bams_to_fc.py
+python upload_bams_to_fc.py
 ```
 
 ## Uploading the metadata
