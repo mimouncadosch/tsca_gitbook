@@ -20,9 +20,7 @@ Cell Line Decision Columns:
 * **Notes**
   * Variable \(not standardized\). Examples are: sample swap, low coverage
 * **Action Items: **
-  * Possible values are : "Resubmit", "Move to expansion", "Need WES/RNASeq"
-
-
+  * Possible values are : "Resubmit", "Move to expansion", "Need WES/RNASeq", "Need cohort report", "Need primary tissue"
 
 
 
