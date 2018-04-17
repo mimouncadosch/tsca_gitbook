@@ -15,10 +15,16 @@ wget --tries=10 --continue --mirror --user SN0138152 --password Ts4DoAKPg3DD --n
 
 ### 2. Renaming files according to sample names
 
-Files are named according to well positions, need to be named after samples they represent.
+Files are named according to well positions, and need to be named after samples they represent. Go to relevant directory:
 
 ```
 cd /xchip/clf/seq_data/process_for_fc
+```
+
+Copy the External Sheet \(received from Paula\) to the `walkup_seq_sample_info/`  directory.
+
+```
+cp /xchip/clf/seq_data/walkup_seq_sample_info/
 ```
 
 **TODO:**Prepare UGER
