@@ -15,40 +15,42 @@ wget --tries=10 --continue --mirror --user SN0138152 --password Ts4DoAKPg3DD --n
 
 ### 2. Renaming files according to sample names
 
-Files are named according to well positions, and need to be named after samples they represent. Go to relevant directory:
-
-```
-cd /xchip/clf/seq_data/process_for_fc
-```
-
+##### 2.a.
 Copy the External Sheet \(received from Paula\) to the `walkup_seq_sample_info/`  directory.
 
 ```
-cp /xchip/clf/seq_data/walkup_seq_sample_info/
+cp ~/Downloads/<EXTERNAL_SHEET> /xchip/clf/seq_data/walkup_seq_sample_info/
 ```
 
-**TODO:**Prepare UGER
+##### 2.b.
+Edit the following files:
+```
+/xchip/clf/seq_data/process_for_fc/prepare_data_for_fc_export.py
+/xchip/clf/seq_data/process_for_fc/upload_bams_to_fc.py
+```
 
-\`\`\`USE UGER
-
-[https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun\_grid\_engine\_for\_beginners/how\_to\_submit\_a\_job\_using\_qsub.md](https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun_grid_engine_for_beginners/how_to_submit_a_job_using_qsub.md)
-
-\`\`\`
-
-**Edit** and run this file:
+##### 2.c.
+Login to UGER server and prepare the files for export to Firecloud/Google Bucket (files are named according to well positions, and need to be named after samples they represent).
+```
+ssh mimoun@login.broadinstitute.org
+use UGER
+ish
+```
 
 ```
+cd /xchip/clf/seq_data/process_for_fc/
 source venv/bin/activate
 python prepare_data_for_fc_export.py
 ```
 
 ### 3. Upload to Firecloud \(Google Bucket\)
 
-**Edit** and run this file:
-
+Run this file to upload files to Firecloud/Google Bucket:
 ```
 python upload_bams_to_fc.py
 ```
+
+NOTE: [https://github.com/BIMSBbioinfo/intro2UnixandSGE/blob/master/sun\_grid\_engine\_for\_beginners/how\_to\_submit\_a\_job\_using\_qsub.md](More on UGER)
 
 ## Uploading the metadata
 
