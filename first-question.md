@@ -72,11 +72,11 @@ Where `TSCAXX` is the last batch run.
 
 Second, in the file `/xchip/clf/seq_data/process_for_fc/metadata_exports/paths_to_batches_info.xlsx`make sure to add the path to the `import_samples.txt` file for the batch being run.
 
-The file will be in `/xchip/clf/seqdata/process_for_fc/tscaXX_date_SNID/`
+The file will be in `/xchip/clf/seq/data/process_for_fc/tscaXX_date_SNID/`
 
 ##### C.
 
-Third, In the file:
+Third, load the `firecloud_sugar` library:
 
 ```
 /xchip/clf/seq_data/process_for_fc/metadata_exports/firecloud_sugar.py
@@ -90,6 +90,5 @@ For debugging, make sure that:
 
 * The Control sample has a sample ID \(not a null ID\)
 * That there aren't any new cohorts not included in the dictionary `cohort_names_dictionary.txt` 
-
 
 
