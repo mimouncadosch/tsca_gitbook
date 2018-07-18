@@ -43,6 +43,9 @@ source venv/bin/activate
 python prepare_data_for_fc_export.py
 ```
 
+**Important:**  
+Run all functions once for each plate prefix (`1_` and `2_`), except for the last function `create_sample_info_file(...)`, which you only need to run once.
+
 ### 3. Upload to Firecloud \(Google Bucket\)
 
 Run this file to upload files to Firecloud/Google Bucket:
@@ -72,7 +75,7 @@ Where `TSCAXX` is the last batch run.
 
 Second, in the file `/xchip/clf/seq_data/process_for_fc/metadata_exports/paths_to_batches_info.xlsx`make sure to add the path to the `import_samples.txt` file for the batch being run.
 
-The file will be in `/xchip/clf/seq/data/process_for_fc/tscaXX_date_SNID/`
+The file will be in `/xchip/clf/seq_data/process_for_fc/tscaXX_date_SNID/`
 
 ##### C.
 
