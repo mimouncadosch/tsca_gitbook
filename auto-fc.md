@@ -21,6 +21,5 @@ For each file:
 	- edit the parameters in the python file (e.g. tsca_id = "TSCA31" in `cnv_auto.py`)  
 	- edit the parameters in the configuration firecloud
 
-
-
-
+**Important:**  
+- You have to run `cnv_auto.py` before you can run `snvs_auto.py` or `fng_auto.py`
