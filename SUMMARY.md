@@ -10,3 +10,4 @@
 * [Fingerprinting QC](fingerprinting-qc.md)
 * [UGER](uger.md)
 * [Automated Firecloud Submissions](auto-fc.md)
+* [Docker Tutorial](working-with-docker.md)
