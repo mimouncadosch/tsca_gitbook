@@ -36,5 +36,8 @@ Cell Line Decision Columns:
 * **Action Items: **
   * Possible values are : "Resubmit", "Move to expansion", "Need WES/RNASeq", "Need cohort report", "Need primary tissue"
 
+---
+Duplicates:
 
-
+There is program to rename duplicates, such that if sample with external id A already exists, the new sample will be called A_2, A_3, and so on.
+It will only work however, if the external id you submit is always the basic one, i.e. no "_2", "_3", etc., as the program will be the one adding these.
