@@ -26,6 +26,8 @@ Most Important Columns (cannot be empty)
 * Collaborator Participant ID
 * Collaborator Sample ID
 
+__Note:__ Make sure the column `Tumor Type` is also present.
+
 ---
 Cell Line Decision Columns:
 

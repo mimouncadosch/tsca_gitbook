@@ -39,7 +39,8 @@ ish
 
 ```
 cd /xchip/clf/seq_data/process_for_fc/
-source venv/bin/activate
+use .anaconda-5.0.1
+# source venv/bin/activate
 python prepare_data_for_fc_export.py
 ```
 
